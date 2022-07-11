@@ -5,7 +5,7 @@ const path = require('path');
 
 module.exports = defineConfig({
   transpileDependencies: true,
-  outputDir: './../server_auth0/public/',
+  outputDir: './../demo_static_auth0/public/',
   publicPath: process.env.NODE_ENV === 'production' ? '/public' : '/',
   configureWebpack: {
     devServer: {
